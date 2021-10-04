@@ -14,8 +14,19 @@ button {
 }
 
 a:hover {
-    text-decoration: none;
     cursor: pointer;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+#bloc-8 {
+    background-color: #F4CFBE;
+}
+
+#bloc-8 p{
+    background-color: #aa481b;
 }
 
 #page-loading-blocs-notifaction {
@@ -677,7 +688,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -779,13 +790,14 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #aa481b;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
+    text-decoration: underline;
 }
 
 .ltc-white {
